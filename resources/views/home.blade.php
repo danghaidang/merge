@@ -36,10 +36,10 @@
                 </div>
                 <div class="row">
                     <div class="search-body input-group">
-                        <input placeholder="search items...">
-                        <div class="input-group-append">
-                            <button type="button"><em class="fa fa-search fa-lg"></em></button>
-                        </div>
+                            <input placeholder="search items...">
+                            <div class="input-group-append">
+                                <button type="button"><em class="fa fa-search fa-lg"></em></button>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
     <!-- main content -->
     <div class="main">
         <div class="main-col">
-            <h1>Online Coupons, Promo Codes & Discounts</h1>
+            <h1 class="title">Online Coupons, Promo Codes & Discounts</h1>
             <div class="coupon-list">
                 <!-- start a item -->
                 @foreach(range(0,10) as $v)
@@ -74,7 +74,7 @@
                     <a href="#">Link text</a>
                 </div>
 
-                <div class="col"><a href="#">
+                <div class="col">
                         <a href="#">Link text</a><br/>
                         <a href="#">Link text</a><br/>
                         <a href="#">Link text</a>
